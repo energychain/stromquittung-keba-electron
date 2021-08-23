@@ -1,0 +1,32 @@
+{
+  "name": "stromquittung-keba-electron",
+  "version": "0.0.1",
+  "description": "Electron App zur Erstellung einer Stromquittung der letzten Ladung einer KEBA Wallbox",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager ."
+  },
+  "repository": "https://github.com/energychain/stromquittung-keba-electron.git",
+  "keywords": [
+    "stromquittung",
+    "wallbox",
+    "keba",
+    "p30",
+    "corrently",
+    "stromdao",
+    "charging",
+    "invoicing",
+    "electron"
+  ],
+  "author": "STROMDAO GmbH <kontakt@stromdao.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^13.2.1",
+    "electron-packager": "^15.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "stromquittung-keba-p30": "^1.0.3"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Corrently Strom-Quittung</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="scripts/jquery.min.js"></script>
+    <script>if (window.module) module = window.module;</script>
+  </head>
+  <body>
+    <img src="./StromQuittung_Web.png" align="right" class="float-right">
+    <div class="container">
+
+      <label for="ip_addr">IP Adresse der Keba-Wallbox</label>
+      <div class="input-group mb-3">
+        <input type="text" name="ip_addr" id="ip_addr" class="form-control" placeholder="192.168.1.25" aria-label="192.168.1.25" aria-describedby="IP der Wallbox">
+        <div class="input-group-append">
+          <button id="btnSub" class="btn btn-outline-secondary" type="button">Ladung abrufen</button>
+        </div>
+      </div>
+
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
