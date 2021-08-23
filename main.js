@@ -7,7 +7,10 @@ function createWindow () {
     width: 430,
     height: 720,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
+      webSecurity: false,
+   enableRemoteModule: true,
+      contextIsolation: false,
+      preload: path.join(app.getAppPath(), 'preload.js')
     }
   })
   mainWindow.loadFile('index.html')
