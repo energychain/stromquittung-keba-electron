@@ -22,7 +22,7 @@
   "author": "STROMDAO GmbH <kontakt@stromdao.com>",
   "license": "Apache-2.0",
   "devDependencies": {
-    "electron": "^13.2.1",
+    "electron": "^15.5.5",
     "electron-packager": "^15.3.0"
   },
   "dependencies": {
